@@ -1,6 +1,6 @@
 import { ChangeEvent, FormEvent } from "react"
 
-export type AddTodoProps = {
+ type AddTodoProps = {
   task: string
   handlerSubmitTodo: (e: FormEvent) => void
   handlerChange: (e: ChangeEvent) => void

@@ -45,6 +45,7 @@ export const TodoList = () => {
   }
 
   const handlerChange = (e: ChangeEvent) => {
+    // read input value
     const {value} = e.target as HTMLInputElement
     setTask(value)
   }
